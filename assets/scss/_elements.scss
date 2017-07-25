@@ -1,0 +1,42 @@
+@import "__variables"; 
+@import "__functions"; 
+
+//*ELEMENTS*/
+.btn {
+  @include default-box;
+  padding: 4px  10px;
+  color: $primary-color;
+  background: $bg-muted;
+  border: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: lighten($primary-color, 20%);
+    background: lighten($bg-muted, 20%);
+  }
+
+  &.btn-primary {
+    color: $inverted-primary;
+    background: $bg-primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: lighten($inverted-primary, 20%);
+      background: lighten($bg-primary, 20%);
+    }
+  }
+
+  &.btn-secondary {
+    color: $inverted-secondary;
+    background: $bg-secondary;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: lighten($inverted-secondary, 20%);
+      background: lighten($bg-secondary, 20%);
+    }
+  }
+}

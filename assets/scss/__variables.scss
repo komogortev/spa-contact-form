@@ -1,0 +1,23 @@
+//*VARIABLES*/
+
+$root-font: 16px !default;
+
+$primary-color: #111;
+$inverted-primary: #f1f1f1;
+$secondary-color: #c00;
+$inverted-secondary: #5d7cdd;
+
+$bg-fog: rgba(255,255,255,.7);
+$bg-muted: lighten($primary-color, 50%);
+$bg-primary: $primary-color;
+$bg-secondary: $secondary-color;
+
+$basic-font-size: 14px;
+$gradation-step: 10%;
+
+
+$break-xlarge: 1200px;
+$break-large:  980px;
+$break-medium: 768px;
+$break-small:  400px;
+$break-xsmall: 320px;
